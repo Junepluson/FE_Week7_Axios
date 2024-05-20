@@ -1,7 +1,6 @@
 import React from 'react';
-import { styled } from 'styled-components';
+import styled from 'styled-components';
 import { Outlet } from 'react-router-dom';
-
 
 const BackGround = styled.div`
   width: 100%;
@@ -13,8 +12,11 @@ const BackGround = styled.div`
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;  
   align-items: center;
-  width: 100%;
+  justify-content: center; 
+  gap: 20px; 
+  width: 90%;
   position: relative;
 `;
 
@@ -22,7 +24,7 @@ const Layout = () => {
   return (
     <BackGround>
       <Wrapper>
-        <Outlet/>
+        <Outlet />
       </Wrapper>
     </BackGround>
   );
