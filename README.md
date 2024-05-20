@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# [FE] React Axios
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 이번 세션에서는 React Axios의 기초에 대해 다루었습니다.
 
-## Available Scripts
+### 따라서 이번 실습과 과제는 이를 활용해보는 문제들입니다!
 
-In the project directory, you can run:
+### 기존의 실습 과제에서 사용된 개념들도 녹아있으니, 이전 개념들도 다시 복기하면서 해결해나가시면 좋을 것 같습니다!
 
-### `npm start`
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# [실습 1번]
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+저번시간에 배운 라우터를 사용하여 HOME, MENU, USER 페이지를 완성해주세요 <br/>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br/>
+src/pages에서 진행해주시면 됩니다.
+<br/><br/>
+<img width="1582" alt="image" src="https://github.com/likelion-Inha-12/FE_Week7_Axios/assets/129278491/3b66182a-6246-4ca8-aa06-8bdd403fc96f">
+<img width="1582" alt="image" src="https://github.com/likelion-Inha-12/FE_Week7_Axios/assets/129278491/ddeb9eac-7d03-4fe2-8b24-9ebbb53c45e4">
 
-### `npm run build`
+<br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# [실습 2번]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Reqres에서 제공하는 api를 사용하여 사용자의 사진과 이름, 이메일을 출력합니다
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br/>
+src/pages/Home.jsx 와 App.js 에서 진행하면 됩니다!
+<br/><br/> 
 
-### `npm run eject`
+<img width="1582" alt="image" src="https://github.com/likelion-Inha-12/FE_Week7_Axios/assets/129278491/bbc9e219-4682-4956-a3f4-d3c8610e1252">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# [과제]
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Card 컴포넌트와 User 페이지, Layout을 활용하여 사용자의 사진과 이름으로 나열된 3X3 리스트를 누르고 선택하면 HOME에서 나왔던 사용자 정보가 출력되도록 코드를 작성하세요!
 
-## Learn More
+<br/>
+src/pages/Home.jsx에서 진행하면 됩니다!
+<br/><br/> 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+<br/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br/>
